@@ -30,3 +30,5 @@ EXPOSE 8080
 ## Set the entry point to run the Spring Boot application when the container starts
 #ENTRYPOINT ["java", "-jar", "/app/target/spring-boot-2-hello-world-1.0.2-SNAPSHOT.jar"]
 
+#atharv
+##shubhsm
