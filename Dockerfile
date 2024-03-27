@@ -10,7 +10,7 @@ FROM tomcat:9.0.72
 COPY --from=build /app/target/*.jar /usr/local/tomcat/webapps/ROOT.jar
 
 
-EXPOSE 8080
+EXPOSE 8090
 #
 ## Specify the command to run the application
 #ENTRYPOINT ["java", "-jar","app.jar"]
@@ -29,6 +29,3 @@ EXPOSE 8080
 #
 ## Set the entry point to run the Spring Boot application when the container starts
 #ENTRYPOINT ["java", "-jar", "/app/target/spring-boot-2-hello-world-1.0.2-SNAPSHOT.jar"]
-
-#atharv
-##shubhsm
